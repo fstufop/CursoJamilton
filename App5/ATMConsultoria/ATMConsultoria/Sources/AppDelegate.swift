@@ -13,11 +13,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        let viewController = HomeViewController()
-        let navigationController = UINavigationController.init(rootViewController: viewController)
-        
+        let commonCoordinator = CommonCoordinator() ///instancia o coordinator principal
+        commonCoordinator.start()   ///Chama o método start do Coordinator Principal
         window = UIWindow.init(frame: UIScreen.main.bounds)
-        window?.rootViewController = navigationController
+        window?.rootViewController = commonCoordinator.navigationController ///atribui a viewController principal do coordinator
         window?.makeKeyAndVisible()
         
         

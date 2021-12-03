@@ -12,6 +12,13 @@
 		2A6FDC17274C53F100DE2B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6FDC15274C53F100DE2B43 /* LaunchScreen.storyboard */; };
 		2A6FDC23274C54A800DE2B43 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6FDC21274C54A800DE2B43 /* HomeViewController.swift */; };
 		2A6FDC24274C54A800DE2B43 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A6FDC22274C54A800DE2B43 /* HomeViewController.xib */; };
+		2AA3FDA72756F95200AE1469 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA3FDA62756F95200AE1469 /* Coordinator.swift */; };
+		2AA3FDA92756F9D000AE1469 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA3FDA82756F9D000AE1469 /* CoordinatorProtocol.swift */; };
+		2AC5A13D275910A70007E573 /* HeadsOrTailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC5A13B275910A70007E573 /* HeadsOrTailsViewController.swift */; };
+		2AC5A13E275910A70007E573 /* HeadsOrTailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AC5A13C275910A70007E573 /* HeadsOrTailsViewController.xib */; };
+		2AC5A14227594A440007E573 /* ResultHeadsOrTailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC5A14027594A440007E573 /* ResultHeadsOrTailsViewController.swift */; };
+		2AC5A14327594A440007E573 /* ResultHeadsOrTailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AC5A14127594A440007E573 /* ResultHeadsOrTailsViewController.xib */; };
+		2AC5A145275951770007E573 /* JamiltonCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC5A144275951770007E573 /* JamiltonCoordinator.swift */; };
 		2AEE86BC2754E34E00665772 /* ClientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE86BA2754E34E00665772 /* ClientsViewController.swift */; };
 		2AEE86BD2754E34E00665772 /* ClientsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AEE86BB2754E34E00665772 /* ClientsViewController.xib */; };
 		2AEE86C52754E4AF00665772 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE86C32754E4AF00665772 /* ContactsViewController.swift */; };
@@ -20,6 +27,10 @@
 		2AEE86CA2754E4C600665772 /* CompanyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AEE86C82754E4C600665772 /* CompanyViewController.xib */; };
 		2AEE86CD2754E4DF00665772 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE86CB2754E4DF00665772 /* ServicesViewController.swift */; };
 		2AEE86CE2754E4DF00665772 /* ServicesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AEE86CC2754E4DF00665772 /* ServicesViewController.xib */; };
+		2AEE86D32754F6D700665772 /* SharingDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE86D12754F6D700665772 /* SharingDataViewController.swift */; };
+		2AEE86D42754F6D700665772 /* SharingDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AEE86D22754F6D700665772 /* SharingDataViewController.xib */; };
+		2AEE86D82754FDD300665772 /* SharingDataResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE86D62754FDD300665772 /* SharingDataResultsViewController.swift */; };
+		2AEE86D92754FDD300665772 /* SharingDataResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AEE86D72754FDD300665772 /* SharingDataResultsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +41,13 @@
 		2A6FDC18274C53F100DE2B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A6FDC21274C54A800DE2B43 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2A6FDC22274C54A800DE2B43 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		2AA3FDA62756F95200AE1469 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		2AA3FDA82756F9D000AE1469 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		2AC5A13B275910A70007E573 /* HeadsOrTailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadsOrTailsViewController.swift; sourceTree = "<group>"; };
+		2AC5A13C275910A70007E573 /* HeadsOrTailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeadsOrTailsViewController.xib; sourceTree = "<group>"; };
+		2AC5A14027594A440007E573 /* ResultHeadsOrTailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultHeadsOrTailsViewController.swift; sourceTree = "<group>"; };
+		2AC5A14127594A440007E573 /* ResultHeadsOrTailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultHeadsOrTailsViewController.xib; sourceTree = "<group>"; };
+		2AC5A144275951770007E573 /* JamiltonCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamiltonCoordinator.swift; sourceTree = "<group>"; };
 		2AEE86BA2754E34E00665772 /* ClientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsViewController.swift; sourceTree = "<group>"; };
 		2AEE86BB2754E34E00665772 /* ClientsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClientsViewController.xib; sourceTree = "<group>"; };
 		2AEE86C32754E4AF00665772 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +56,10 @@
 		2AEE86C82754E4C600665772 /* CompanyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyViewController.xib; sourceTree = "<group>"; };
 		2AEE86CB2754E4DF00665772 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
 		2AEE86CC2754E4DF00665772 /* ServicesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServicesViewController.xib; sourceTree = "<group>"; };
+		2AEE86D12754F6D700665772 /* SharingDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingDataViewController.swift; sourceTree = "<group>"; };
+		2AEE86D22754F6D700665772 /* SharingDataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SharingDataViewController.xib; sourceTree = "<group>"; };
+		2AEE86D62754FDD300665772 /* SharingDataResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingDataResultsViewController.swift; sourceTree = "<group>"; };
+		2AEE86D72754FDD300665772 /* SharingDataResultsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SharingDataResultsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +92,8 @@
 		2A6FDC09274C53EF00DE2B43 /* ATMConsultoria */ = {
 			isa = PBXGroup;
 			children = (
-				2A6FDC20274C542300DE2B43 /* Features */,
+				2AA3FDA52756F93E00AE1469 /* Commons */,
+				2AEE86D02754F50900665772 /* CursoJamilton */,
 				2A6FDC1F274C541B00DE2B43 /* Resources */,
 				2A6FDC1E274C540D00DE2B43 /* Sources */,
 			);
@@ -88,6 +111,7 @@
 		2A6FDC1F274C541B00DE2B43 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2AA3FDA82756F9D000AE1469 /* CoordinatorProtocol.swift */,
 				2A6FDC13274C53F100DE2B43 /* Assets.xcassets */,
 				2A6FDC15274C53F100DE2B43 /* LaunchScreen.storyboard */,
 				2A6FDC18274C53F100DE2B43 /* Info.plist */,
@@ -95,7 +119,7 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		2A6FDC20274C542300DE2B43 /* Features */ = {
+		2A6FDC20274C542300DE2B43 /* ATMConsultoria */ = {
 			isa = PBXGroup;
 			children = (
 				2AEE86BE2754E35C00665772 /* Home */,
@@ -104,7 +128,53 @@
 				2AEE86C22754E39600665772 /* Company */,
 				2AEE86C12754E38900665772 /* Services */,
 			);
-			path = Features;
+			path = ATMConsultoria;
+			sourceTree = "<group>";
+		};
+		2AA3FDA52756F93E00AE1469 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				2AA3FDA62756F95200AE1469 /* Coordinator.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		2AC5A1392759105E0007E573 /* PassandoDados */ = {
+			isa = PBXGroup;
+			children = (
+				2AEE86D12754F6D700665772 /* SharingDataViewController.swift */,
+				2AEE86D22754F6D700665772 /* SharingDataViewController.xib */,
+				2AEE86D62754FDD300665772 /* SharingDataResultsViewController.swift */,
+				2AEE86D72754FDD300665772 /* SharingDataResultsViewController.xib */,
+			);
+			path = PassandoDados;
+			sourceTree = "<group>";
+		};
+		2AC5A13A275910740007E573 /* CaraOuCoroa */ = {
+			isa = PBXGroup;
+			children = (
+				2AC5A14627595F160007E573 /* Home */,
+				2AC5A14727595F1B0007E573 /* Result */,
+			);
+			path = CaraOuCoroa;
+			sourceTree = "<group>";
+		};
+		2AC5A14627595F160007E573 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2AC5A13B275910A70007E573 /* HeadsOrTailsViewController.swift */,
+				2AC5A13C275910A70007E573 /* HeadsOrTailsViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2AC5A14727595F1B0007E573 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				2AC5A14027594A440007E573 /* ResultHeadsOrTailsViewController.swift */,
+				2AC5A14127594A440007E573 /* ResultHeadsOrTailsViewController.xib */,
+			);
+			path = Result;
 			sourceTree = "<group>";
 		};
 		2AEE86BE2754E35C00665772 /* Home */ = {
@@ -150,6 +220,25 @@
 				2AEE86C82754E4C600665772 /* CompanyViewController.xib */,
 			);
 			path = Company;
+			sourceTree = "<group>";
+		};
+		2AEE86D02754F50900665772 /* CursoJamilton */ = {
+			isa = PBXGroup;
+			children = (
+				2AEE86D52754FD4F00665772 /* Feature */,
+			);
+			path = CursoJamilton;
+			sourceTree = "<group>";
+		};
+		2AEE86D52754FD4F00665772 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				2A6FDC20274C542300DE2B43 /* ATMConsultoria */,
+				2AC5A1392759105E0007E573 /* PassandoDados */,
+				2AC5A13A275910740007E573 /* CaraOuCoroa */,
+				2AC5A144275951770007E573 /* JamiltonCoordinator.swift */,
+			);
+			path = Feature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +300,11 @@
 			files = (
 				2AEE86CA2754E4C600665772 /* CompanyViewController.xib in Resources */,
 				2A6FDC17274C53F100DE2B43 /* LaunchScreen.storyboard in Resources */,
+				2AEE86D92754FDD300665772 /* SharingDataResultsViewController.xib in Resources */,
+				2AC5A13E275910A70007E573 /* HeadsOrTailsViewController.xib in Resources */,
 				2AEE86CE2754E4DF00665772 /* ServicesViewController.xib in Resources */,
+				2AEE86D42754F6D700665772 /* SharingDataViewController.xib in Resources */,
+				2AC5A14327594A440007E573 /* ResultHeadsOrTailsViewController.xib in Resources */,
 				2A6FDC14274C53F100DE2B43 /* Assets.xcassets in Resources */,
 				2A6FDC24274C54A800DE2B43 /* HomeViewController.xib in Resources */,
 				2AEE86BD2754E34E00665772 /* ClientsViewController.xib in Resources */,
@@ -226,12 +319,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AEE86D82754FDD300665772 /* SharingDataResultsViewController.swift in Sources */,
 				2AEE86CD2754E4DF00665772 /* ServicesViewController.swift in Sources */,
+				2AA3FDA92756F9D000AE1469 /* CoordinatorProtocol.swift in Sources */,
 				2AEE86BC2754E34E00665772 /* ClientsViewController.swift in Sources */,
+				2AC5A13D275910A70007E573 /* HeadsOrTailsViewController.swift in Sources */,
+				2AEE86D32754F6D700665772 /* SharingDataViewController.swift in Sources */,
+				2AC5A14227594A440007E573 /* ResultHeadsOrTailsViewController.swift in Sources */,
 				2AEE86C52754E4AF00665772 /* ContactsViewController.swift in Sources */,
 				2A6FDC0B274C53EF00DE2B43 /* AppDelegate.swift in Sources */,
+				2AC5A145275951770007E573 /* JamiltonCoordinator.swift in Sources */,
 				2A6FDC23274C54A800DE2B43 /* HomeViewController.swift in Sources */,
 				2AEE86C92754E4C600665772 /* CompanyViewController.swift in Sources */,
+				2AA3FDA72756F95200AE1469 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

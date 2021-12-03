@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SharingDataViewController" customModule="ATMConsultoria" customModuleProvider="target">
+            <connections>
+                <outlet property="textFieldData" destination="vwv-Pf-ZET" id="qYN-ON-M6g"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KmA-H6-DYo">
+                    <rect key="frame" x="0.0" y="406" width="414" height="84"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9Z-vR-izV">
+                            <rect key="frame" x="40" y="54" width="334" height="30"/>
+                            <state key="normal" title="Passar Dados"/>
+                            <connections>
+                                <action selector="handlerButtonSharingData:" destination="-1" eventType="touchUpInside" id="8Yq-F0-2p0"/>
+                            </connections>
+                        </button>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vwv-Pf-ZET">
+                            <rect key="frame" x="20" y="0.0" width="374" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="O9Z-vR-izV" firstAttribute="top" secondItem="vwv-Pf-ZET" secondAttribute="bottom" constant="20" id="5Fk-qM-8O9"/>
+                        <constraint firstAttribute="trailing" secondItem="O9Z-vR-izV" secondAttribute="trailing" constant="40" id="6QM-Cj-Mnb"/>
+                        <constraint firstItem="vwv-Pf-ZET" firstAttribute="leading" secondItem="KmA-H6-DYo" secondAttribute="leading" constant="20" id="IgJ-Oa-Vt2"/>
+                        <constraint firstItem="O9Z-vR-izV" firstAttribute="leading" secondItem="KmA-H6-DYo" secondAttribute="leading" constant="40" id="LMF-cA-KHV"/>
+                        <constraint firstItem="vwv-Pf-ZET" firstAttribute="top" secondItem="KmA-H6-DYo" secondAttribute="top" id="Mwt-qV-Nli"/>
+                        <constraint firstAttribute="bottom" secondItem="O9Z-vR-izV" secondAttribute="bottom" id="PaZ-Dk-Wno"/>
+                        <constraint firstAttribute="trailing" secondItem="vwv-Pf-ZET" secondAttribute="trailing" constant="20" id="rqk-l5-ZfF"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="KmA-H6-DYo" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="9XJ-BO-hYa"/>
+                <constraint firstItem="KmA-H6-DYo" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Frb-rq-GFU"/>
+                <constraint firstItem="KmA-H6-DYo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="kPf-oh-eEy"/>
+            </constraints>
+            <point key="canvasLocation" x="43" y="115"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
