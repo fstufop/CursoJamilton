@@ -15,6 +15,13 @@ final class JamiltonCoordinator: Coordinator {
     }
     
     func start() {
+        let viewController = AlertViewController()
+        viewController.coordinator = self
+        navigationController.pushViewController(viewController, animated: true)
+    }
+    
+    //MARK: Apps
+    func goToHeadsOrTailsViewController() {
         let viewController = HeadsOrTailsViewController()
         viewController.coordinator = self
         navigationController.pushViewController(viewController, animated: true)
@@ -22,6 +29,19 @@ final class JamiltonCoordinator: Coordinator {
     
     func goToResultHeadsOrTailsViewController() {
         let viewController = ResultHeadsOrTailsViewController()
+        viewController.coordinator = self
+        navigationController.pushViewController(viewController, animated: true)
+    }
+    
+    //MARK: Features
+    func goToTableViewViewController() {
+        let viewController = TableViewViewController()
+        viewController.coordinator = self
+        navigationController.pushViewController(viewController, animated: true)
+    }
+    
+    func goToAlertViewController() {
+        let viewController = AlertViewController()
         viewController.coordinator = self
         navigationController.pushViewController(viewController, animated: true)
     }

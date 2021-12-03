@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A579433275A4CE800A9E64A /* TableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A579431275A4CE800A9E64A /* TableViewViewController.swift */; };
+		2A579434275A4CE800A9E64A /* TableViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A579432275A4CE800A9E64A /* TableViewViewController.xib */; };
+		2A579438275A549700A9E64A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A579436275A549700A9E64A /* TableViewCell.swift */; };
+		2A579439275A549700A9E64A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A579437275A549700A9E64A /* TableViewCell.xib */; };
+		2A57943D275A792500A9E64A /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57943B275A792500A9E64A /* AlertViewController.swift */; };
+		2A57943E275A792500A9E64A /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A57943C275A792500A9E64A /* AlertViewController.xib */; };
 		2A6FDC0B274C53EF00DE2B43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6FDC0A274C53EF00DE2B43 /* AppDelegate.swift */; };
 		2A6FDC14274C53F100DE2B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A6FDC13274C53F100DE2B43 /* Assets.xcassets */; };
 		2A6FDC17274C53F100DE2B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6FDC15274C53F100DE2B43 /* LaunchScreen.storyboard */; };
@@ -34,6 +40,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A579431275A4CE800A9E64A /* TableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewViewController.swift; sourceTree = "<group>"; };
+		2A579432275A4CE800A9E64A /* TableViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewViewController.xib; sourceTree = "<group>"; };
+		2A579436275A549700A9E64A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2A579437275A549700A9E64A /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		2A57943B275A792500A9E64A /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		2A57943C275A792500A9E64A /* AlertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertViewController.xib; sourceTree = "<group>"; };
 		2A6FDC07274C53EF00DE2B43 /* ATMConsultoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATMConsultoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6FDC0A274C53EF00DE2B43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A6FDC13274C53F100DE2B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +85,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A579430275A4CCB00A9E64A /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				2A579435275A547B00A9E64A /* Cell */,
+				2A579431275A4CE800A9E64A /* TableViewViewController.swift */,
+				2A579432275A4CE800A9E64A /* TableViewViewController.xib */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		2A579435275A547B00A9E64A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2A579436275A549700A9E64A /* TableViewCell.swift */,
+				2A579437275A549700A9E64A /* TableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2A57943A275A78F200A9E64A /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				2A57943B275A792500A9E64A /* AlertViewController.swift */,
+				2A57943C275A792500A9E64A /* AlertViewController.xib */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
 		2A6FDBFE274C53EF00DE2B43 = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +273,8 @@
 		2AEE86D52754FD4F00665772 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				2A57943A275A78F200A9E64A /* Alerts */,
+				2A579430275A4CCB00A9E64A /* TableView */,
 				2A6FDC20274C542300DE2B43 /* ATMConsultoria */,
 				2AC5A1392759105E0007E573 /* PassandoDados */,
 				2AC5A13A275910740007E573 /* CaraOuCoroa */,
@@ -302,13 +344,16 @@
 				2A6FDC17274C53F100DE2B43 /* LaunchScreen.storyboard in Resources */,
 				2AEE86D92754FDD300665772 /* SharingDataResultsViewController.xib in Resources */,
 				2AC5A13E275910A70007E573 /* HeadsOrTailsViewController.xib in Resources */,
+				2A579439275A549700A9E64A /* TableViewCell.xib in Resources */,
 				2AEE86CE2754E4DF00665772 /* ServicesViewController.xib in Resources */,
 				2AEE86D42754F6D700665772 /* SharingDataViewController.xib in Resources */,
+				2A579434275A4CE800A9E64A /* TableViewViewController.xib in Resources */,
 				2AC5A14327594A440007E573 /* ResultHeadsOrTailsViewController.xib in Resources */,
 				2A6FDC14274C53F100DE2B43 /* Assets.xcassets in Resources */,
 				2A6FDC24274C54A800DE2B43 /* HomeViewController.xib in Resources */,
 				2AEE86BD2754E34E00665772 /* ClientsViewController.xib in Resources */,
 				2AEE86C62754E4AF00665772 /* ContactsViewController.xib in Resources */,
+				2A57943E275A792500A9E64A /* AlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,15 +364,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A579438275A549700A9E64A /* TableViewCell.swift in Sources */,
 				2AEE86D82754FDD300665772 /* SharingDataResultsViewController.swift in Sources */,
 				2AEE86CD2754E4DF00665772 /* ServicesViewController.swift in Sources */,
 				2AA3FDA92756F9D000AE1469 /* CoordinatorProtocol.swift in Sources */,
 				2AEE86BC2754E34E00665772 /* ClientsViewController.swift in Sources */,
 				2AC5A13D275910A70007E573 /* HeadsOrTailsViewController.swift in Sources */,
 				2AEE86D32754F6D700665772 /* SharingDataViewController.swift in Sources */,
+				2A579433275A4CE800A9E64A /* TableViewViewController.swift in Sources */,
 				2AC5A14227594A440007E573 /* ResultHeadsOrTailsViewController.swift in Sources */,
 				2AEE86C52754E4AF00665772 /* ContactsViewController.swift in Sources */,
 				2A6FDC0B274C53EF00DE2B43 /* AppDelegate.swift in Sources */,
+				2A57943D275A792500A9E64A /* AlertViewController.swift in Sources */,
 				2AC5A145275951770007E573 /* JamiltonCoordinator.swift in Sources */,
 				2A6FDC23274C54A800DE2B43 /* HomeViewController.swift in Sources */,
 				2AEE86C92754E4C600665772 /* CompanyViewController.swift in Sources */,
