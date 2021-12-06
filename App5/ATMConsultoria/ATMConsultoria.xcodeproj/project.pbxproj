@@ -20,6 +20,12 @@
 		2A6FDC24274C54A800DE2B43 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A6FDC22274C54A800DE2B43 /* HomeViewController.xib */; };
 		2AA3FDA72756F95200AE1469 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA3FDA62756F95200AE1469 /* Coordinator.swift */; };
 		2AA3FDA92756F9D000AE1469 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA3FDA82756F9D000AE1469 /* CoordinatorProtocol.swift */; };
+		2AAC63D2275E30CF00F45B9F /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC63D0275E30CF00F45B9F /* SignViewController.swift */; };
+		2AAC63D3275E30CF00F45B9F /* SignViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AAC63D1275E30CF00F45B9F /* SignViewController.xib */; };
+		2AAC63D7275E312D00F45B9F /* SignTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC63D5275E312D00F45B9F /* SignTableViewCell.swift */; };
+		2AAC63D8275E312D00F45B9F /* SignTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AAC63D6275E312D00F45B9F /* SignTableViewCell.xib */; };
+		2AAC63DB275E4A7500F45B9F /* SignModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC63DA275E4A7500F45B9F /* SignModel.swift */; };
+		2AAC63DF275E503B00F45B9F /* SignViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC63DE275E503B00F45B9F /* SignViewModel.swift */; };
 		2AC5A13D275910A70007E573 /* HeadsOrTailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC5A13B275910A70007E573 /* HeadsOrTailsViewController.swift */; };
 		2AC5A13E275910A70007E573 /* HeadsOrTailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AC5A13C275910A70007E573 /* HeadsOrTailsViewController.xib */; };
 		2AC5A14227594A440007E573 /* ResultHeadsOrTailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC5A14027594A440007E573 /* ResultHeadsOrTailsViewController.swift */; };
@@ -55,6 +61,12 @@
 		2A6FDC22274C54A800DE2B43 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		2AA3FDA62756F95200AE1469 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		2AA3FDA82756F9D000AE1469 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		2AAC63D0275E30CF00F45B9F /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
+		2AAC63D1275E30CF00F45B9F /* SignViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignViewController.xib; sourceTree = "<group>"; };
+		2AAC63D5275E312D00F45B9F /* SignTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignTableViewCell.swift; sourceTree = "<group>"; };
+		2AAC63D6275E312D00F45B9F /* SignTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignTableViewCell.xib; sourceTree = "<group>"; };
+		2AAC63DA275E4A7500F45B9F /* SignModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignModel.swift; sourceTree = "<group>"; };
+		2AAC63DE275E503B00F45B9F /* SignViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewModel.swift; sourceTree = "<group>"; };
 		2AC5A13B275910A70007E573 /* HeadsOrTailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadsOrTailsViewController.swift; sourceTree = "<group>"; };
 		2AC5A13C275910A70007E573 /* HeadsOrTailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeadsOrTailsViewController.xib; sourceTree = "<group>"; };
 		2AC5A14027594A440007E573 /* ResultHeadsOrTailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultHeadsOrTailsViewController.swift; sourceTree = "<group>"; };
@@ -179,6 +191,34 @@
 			path = Commons;
 			sourceTree = "<group>";
 		};
+		2AAC63CF275E30AE00F45B9F /* Signos */ = {
+			isa = PBXGroup;
+			children = (
+				2AAC63DA275E4A7500F45B9F /* SignModel.swift */,
+				2AAC63DE275E503B00F45B9F /* SignViewModel.swift */,
+				2AAC63D4275E310D00F45B9F /* Cell */,
+				2AAC63D0275E30CF00F45B9F /* SignViewController.swift */,
+				2AAC63D1275E30CF00F45B9F /* SignViewController.xib */,
+			);
+			path = Signos;
+			sourceTree = "<group>";
+		};
+		2AAC63D4275E310D00F45B9F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2AAC63D5275E312D00F45B9F /* SignTableViewCell.swift */,
+				2AAC63D6275E312D00F45B9F /* SignTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2AAC63E0275E8ABC00F45B9F /* Filmes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Filmes;
+			sourceTree = "<group>";
+		};
 		2AC5A1392759105E0007E573 /* PassandoDados */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,6 +313,8 @@
 		2AEE86D52754FD4F00665772 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				2AAC63E0275E8ABC00F45B9F /* Filmes */,
+				2AAC63CF275E30AE00F45B9F /* Signos */,
 				2A57943A275A78F200A9E64A /* Alerts */,
 				2A579430275A4CCB00A9E64A /* TableView */,
 				2A6FDC20274C542300DE2B43 /* ATMConsultoria */,
@@ -341,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AEE86CA2754E4C600665772 /* CompanyViewController.xib in Resources */,
+				2AAC63D3275E30CF00F45B9F /* SignViewController.xib in Resources */,
 				2A6FDC17274C53F100DE2B43 /* LaunchScreen.storyboard in Resources */,
 				2AEE86D92754FDD300665772 /* SharingDataResultsViewController.xib in Resources */,
 				2AC5A13E275910A70007E573 /* HeadsOrTailsViewController.xib in Resources */,
@@ -349,6 +392,7 @@
 				2AEE86D42754F6D700665772 /* SharingDataViewController.xib in Resources */,
 				2A579434275A4CE800A9E64A /* TableViewViewController.xib in Resources */,
 				2AC5A14327594A440007E573 /* ResultHeadsOrTailsViewController.xib in Resources */,
+				2AAC63D8275E312D00F45B9F /* SignTableViewCell.xib in Resources */,
 				2A6FDC14274C53F100DE2B43 /* Assets.xcassets in Resources */,
 				2A6FDC24274C54A800DE2B43 /* HomeViewController.xib in Resources */,
 				2AEE86BD2754E34E00665772 /* ClientsViewController.xib in Resources */,
@@ -367,11 +411,14 @@
 				2A579438275A549700A9E64A /* TableViewCell.swift in Sources */,
 				2AEE86D82754FDD300665772 /* SharingDataResultsViewController.swift in Sources */,
 				2AEE86CD2754E4DF00665772 /* ServicesViewController.swift in Sources */,
+				2AAC63DF275E503B00F45B9F /* SignViewModel.swift in Sources */,
 				2AA3FDA92756F9D000AE1469 /* CoordinatorProtocol.swift in Sources */,
 				2AEE86BC2754E34E00665772 /* ClientsViewController.swift in Sources */,
+				2AAC63DB275E4A7500F45B9F /* SignModel.swift in Sources */,
 				2AC5A13D275910A70007E573 /* HeadsOrTailsViewController.swift in Sources */,
 				2AEE86D32754F6D700665772 /* SharingDataViewController.swift in Sources */,
 				2A579433275A4CE800A9E64A /* TableViewViewController.swift in Sources */,
+				2AAC63D7275E312D00F45B9F /* SignTableViewCell.swift in Sources */,
 				2AC5A14227594A440007E573 /* ResultHeadsOrTailsViewController.swift in Sources */,
 				2AEE86C52754E4AF00665772 /* ContactsViewController.swift in Sources */,
 				2A6FDC0B274C53EF00DE2B43 /* AppDelegate.swift in Sources */,
@@ -380,6 +427,7 @@
 				2A6FDC23274C54A800DE2B43 /* HomeViewController.swift in Sources */,
 				2AEE86C92754E4C600665772 /* CompanyViewController.swift in Sources */,
 				2AA3FDA72756F95200AE1469 /* Coordinator.swift in Sources */,
+				2AAC63D2275E30CF00F45B9F /* SignViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

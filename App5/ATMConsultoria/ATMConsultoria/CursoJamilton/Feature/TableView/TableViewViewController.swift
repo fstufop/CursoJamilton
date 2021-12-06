@@ -33,15 +33,21 @@ class TableViewViewController: UIViewController {
 }
 
 extension TableViewViewController: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        113
+    } ///Define a altura das células da tableView
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return data.count
     } ///Função para definir o número de celuas em na seção que a tableView terá. Por default, a apple criar apenas uma seção. Para criar mais, é necessário chamar a função numberOfSections. Criar várias seções permite confiigurar de maneira diferente cada uma delas.
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell() ///Instancia uma celula padrão
-        cell.textLabel?.text = data[indexPath.row] ///Coloca o texto em cada célula de acordo com
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell") as?  TableViewCell else { return UITableViewCell() ///Instancia uma celula padrão
+            
+        }
         return cell
-    } ///Função para carregar a celula em cada uma das
+    } ///Função para carregar a celula em cada uma das linhas
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("O usuário clicou na linha ", indexPath.row)
+    }
 }
