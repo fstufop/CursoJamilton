@@ -15,7 +15,7 @@ final class JamiltonCoordinator: Coordinator {
     }
     
     func start() {
-        let viewController = SignViewController()
+        let viewController = ToDoListViewController()
         viewController.coordinator = self
         navigationController.pushViewController(viewController, animated: true)
     }
@@ -39,6 +39,36 @@ final class JamiltonCoordinator: Coordinator {
         navigationController.pushViewController(viewController, animated: true)
     }
     
+    func goToHomeMoviesViewController() {
+        let viewController = HomeMoviesViewController()
+        viewController.coordinator = self
+        navigationController.pushViewController(viewController, animated: true)
+    }
+    
+    func goToDetailsMoviesViewController(imageName: String, moviesName: String, moviesDescription: String) {
+        let viewController = DetailsMoviesViewController(imageName: imageName, moviesName: moviesName, moviesDescription: moviesDescription)
+        viewController.coordinator = self
+        navigationController.pushViewController(viewController, animated: true)
+    }
+    
+    func goMyNotesViewController() {
+        let viewController = MyNotesViewController()
+        viewController.coordinator = self
+        navigationController.pushViewController(viewController, animated: true)
+    }
+    
+    func goToToDoListViewController() {
+        let viewController = ToDoListViewController()
+        viewController.coordinator = self
+        navigationController.pushViewController(viewController, animated: true)
+    }
+    
+    func goToAddToDoViewController() {
+        let viewController = AddToDoViewController()
+        viewController.coordinator = self
+        navigationController.pushViewController(viewController, animated: true)
+    }
+    
     //MARK: Features
     func goToTableViewViewController() {
         let viewController = TableViewViewController()
@@ -48,6 +78,12 @@ final class JamiltonCoordinator: Coordinator {
     
     func goToAlertViewController() {
         let viewController = AlertViewController()
+        viewController.coordinator = self
+        navigationController.pushViewController(viewController, animated: true)
+    }
+    
+    func goToAlertPermanenteStorageViewController() {
+        let viewController = PermanenteStorageViewController()
         viewController.coordinator = self
         navigationController.pushViewController(viewController, animated: true)
     }
