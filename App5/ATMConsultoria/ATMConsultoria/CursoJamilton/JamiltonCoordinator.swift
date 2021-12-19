@@ -15,7 +15,7 @@ final class JamiltonCoordinator: Coordinator {
     }
     
     func start() {
-        let viewController = ToDoListViewController()
+        let viewController = MapKitViewController()
         viewController.coordinator = self
         navigationController.pushViewController(viewController, animated: true)
     }
@@ -63,8 +63,8 @@ final class JamiltonCoordinator: Coordinator {
         navigationController.pushViewController(viewController, animated: true)
     }
     
-    func goToAddToDoViewController() {
-        let viewController = AddToDoViewController()
+    func goToAddToDoViewController(viewModel: ToDoViewModel) {
+        let viewController = AddToDoViewController(viewModel: viewModel)
         viewController.coordinator = self
         navigationController.pushViewController(viewController, animated: true)
     }
@@ -84,6 +84,12 @@ final class JamiltonCoordinator: Coordinator {
     
     func goToAlertPermanenteStorageViewController() {
         let viewController = PermanenteStorageViewController()
+        viewController.coordinator = self
+        navigationController.pushViewController(viewController, animated: true)
+    }
+    
+    func goToMapKitViewController() {
+        let viewController = MapKitViewController()
         viewController.coordinator = self
         navigationController.pushViewController(viewController, animated: true)
     }

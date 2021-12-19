@@ -8,9 +8,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ToDoListViewController" customModule="ATMConsultoria" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MapKitViewController" customModule="ATMConsultoria" customModuleProvider="target">
             <connections>
-                <outlet property="tableView" destination="JKd-mN-abO" id="Yns-J4-nTL"/>
+                <outlet property="mapView" destination="khz-F8-G8Q" id="d0X-xi-VLz"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,20 +19,19 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JKd-mN-abO">
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="khz-F8-G8Q">
                     <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                </tableView>
+                </mapView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="JKd-mN-abO" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="7jy-i9-hSn"/>
-                <constraint firstItem="JKd-mN-abO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ErR-8U-nEz"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="JKd-mN-abO" secondAttribute="bottom" id="aWQ-DP-Zq2"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JKd-mN-abO" secondAttribute="trailing" id="wh3-Ar-ZEy"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="khz-F8-G8Q" secondAttribute="trailing" id="3sv-nA-6oY"/>
+                <constraint firstItem="khz-F8-G8Q" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="BRr-7Y-QZZ"/>
+                <constraint firstItem="khz-F8-G8Q" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Icb-gw-M90"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="khz-F8-G8Q" secondAttribute="bottom" id="uLN-uR-D8L"/>
             </constraints>
-            <point key="canvasLocation" x="139" y="88"/>
+            <point key="canvasLocation" x="139" y="119"/>
         </view>
     </objects>
     <resources>

@@ -14,8 +14,7 @@
 		2A016BCF276241F700B56110 /* ToDoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A016BCD276241F700B56110 /* ToDoListViewController.xib */; };
 		2A016BD22762421200B56110 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A016BD02762421200B56110 /* AddToDoViewController.swift */; };
 		2A016BD32762421200B56110 /* AddToDoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A016BD12762421200B56110 /* AddToDoViewController.xib */; };
-		2A016BD52762422700B56110 /* ToDoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A016BD42762422700B56110 /* ToDoViewModel.swift */; };
-		2A016BDA2762C00E00B56110 /* AddToDoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A016BD92762C00E00B56110 /* AddToDoViewModel.swift */; };
+		2A016BDA2762C00E00B56110 /* ToDoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A016BD92762C00E00B56110 /* ToDoViewModel.swift */; };
 		2A579433275A4CE800A9E64A /* TableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A579431275A4CE800A9E64A /* TableViewViewController.swift */; };
 		2A579434275A4CE800A9E64A /* TableViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A579432275A4CE800A9E64A /* TableViewViewController.xib */; };
 		2A579438275A549700A9E64A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A579436275A549700A9E64A /* TableViewCell.swift */; };
@@ -46,6 +45,11 @@
 		2AC5A14227594A440007E573 /* ResultHeadsOrTailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC5A14027594A440007E573 /* ResultHeadsOrTailsViewController.swift */; };
 		2AC5A14327594A440007E573 /* ResultHeadsOrTailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AC5A14127594A440007E573 /* ResultHeadsOrTailsViewController.xib */; };
 		2AC5A145275951770007E573 /* JamiltonCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC5A144275951770007E573 /* JamiltonCoordinator.swift */; };
+		2ADD76B1276B9128001A7A8B /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD76AF276B9128001A7A8B /* ToDoTableViewCell.swift */; };
+		2ADD76B2276B9128001A7A8B /* ToDoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADD76B0276B9128001A7A8B /* ToDoTableViewCell.xib */; };
+		2ADD76B6276BB3C6001A7A8B /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD76B4276BB3C6001A7A8B /* MapKitViewController.swift */; };
+		2ADD76B7276BB3C6001A7A8B /* MapKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADD76B5276BB3C6001A7A8B /* MapKitViewController.xib */; };
+		2ADD76BA276BBFAF001A7A8B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADD76B9276BBFAF001A7A8B /* CoreLocation.framework */; };
 		2AE31081275FAE70000EB3CD /* DetailsMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE3107F275FAE70000EB3CD /* DetailsMoviesViewController.swift */; };
 		2AE31082275FAE70000EB3CD /* DetailsMoviesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AE31080275FAE70000EB3CD /* DetailsMoviesViewController.xib */; };
 		2AE31088275FD5E9000EB3CD /* PermanenteStorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE31086275FD5E9000EB3CD /* PermanenteStorageViewController.swift */; };
@@ -72,8 +76,7 @@
 		2A016BCD276241F700B56110 /* ToDoListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoListViewController.xib; sourceTree = "<group>"; };
 		2A016BD02762421200B56110 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 		2A016BD12762421200B56110 /* AddToDoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddToDoViewController.xib; sourceTree = "<group>"; };
-		2A016BD42762422700B56110 /* ToDoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewModel.swift; sourceTree = "<group>"; };
-		2A016BD92762C00E00B56110 /* AddToDoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewModel.swift; sourceTree = "<group>"; };
+		2A016BD92762C00E00B56110 /* ToDoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewModel.swift; sourceTree = "<group>"; };
 		2A579431275A4CE800A9E64A /* TableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewViewController.swift; sourceTree = "<group>"; };
 		2A579432275A4CE800A9E64A /* TableViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewViewController.xib; sourceTree = "<group>"; };
 		2A579436275A549700A9E64A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
@@ -106,6 +109,11 @@
 		2AC5A14027594A440007E573 /* ResultHeadsOrTailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultHeadsOrTailsViewController.swift; sourceTree = "<group>"; };
 		2AC5A14127594A440007E573 /* ResultHeadsOrTailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultHeadsOrTailsViewController.xib; sourceTree = "<group>"; };
 		2AC5A144275951770007E573 /* JamiltonCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamiltonCoordinator.swift; sourceTree = "<group>"; };
+		2ADD76AF276B9128001A7A8B /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
+		2ADD76B0276B9128001A7A8B /* ToDoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoTableViewCell.xib; sourceTree = "<group>"; };
+		2ADD76B4276BB3C6001A7A8B /* MapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		2ADD76B5276BB3C6001A7A8B /* MapKitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapKitViewController.xib; sourceTree = "<group>"; };
+		2ADD76B9276BBFAF001A7A8B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		2AE3107F275FAE70000EB3CD /* DetailsMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsMoviesViewController.swift; sourceTree = "<group>"; };
 		2AE31080275FAE70000EB3CD /* DetailsMoviesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsMoviesViewController.xib; sourceTree = "<group>"; };
 		2AE31086275FD5E9000EB3CD /* PermanenteStorageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermanenteStorageViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ADD76BA276BBFAF001A7A8B /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +157,7 @@
 		2A016BCB276241DA00B56110 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
-				2A016BD42762422700B56110 /* ToDoViewModel.swift */,
+				2A016BD92762C00E00B56110 /* ToDoViewModel.swift */,
 				2A016BD62762425600B56110 /* Scenes */,
 			);
 			path = ToDoList;
@@ -159,6 +168,8 @@
 			children = (
 				2A016BD72762426C00B56110 /* Home */,
 				2A016BD82762427500B56110 /* AddNewToDo */,
+				2ADD76AF276B9128001A7A8B /* ToDoTableViewCell.swift */,
+				2ADD76B0276B9128001A7A8B /* ToDoTableViewCell.xib */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -176,7 +187,6 @@
 			isa = PBXGroup;
 			children = (
 				2A016BD02762421200B56110 /* AddToDoViewController.swift */,
-				2A016BD92762C00E00B56110 /* AddToDoViewModel.swift */,
 				2A016BD12762421200B56110 /* AddToDoViewController.xib */,
 			);
 			path = AddNewToDo;
@@ -215,6 +225,7 @@
 			children = (
 				2A6FDC09274C53EF00DE2B43 /* ATMConsultoria */,
 				2A6FDC08274C53EF00DE2B43 /* Products */,
+				2ADD76B8276BBFAE001A7A8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -417,6 +428,23 @@
 			path = Result;
 			sourceTree = "<group>";
 		};
+		2ADD76B3276BB3AA001A7A8B /* MapKit */ = {
+			isa = PBXGroup;
+			children = (
+				2ADD76B4276BB3C6001A7A8B /* MapKitViewController.swift */,
+				2ADD76B5276BB3C6001A7A8B /* MapKitViewController.xib */,
+			);
+			path = MapKit;
+			sourceTree = "<group>";
+		};
+		2ADD76B8276BBFAE001A7A8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ADD76B9276BBFAF001A7A8B /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2AE31083275FAE94000EB3CD /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -502,6 +530,7 @@
 		2AEE86D52754FD4F00665772 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				2ADD76B3276BB3AA001A7A8B /* MapKit */,
 				2AE31085275FD567000EB3CD /* PermanentStorage */,
 				2A57943A275A78F200A9E64A /* Alerts */,
 				2A579430275A4CCB00A9E64A /* TableView */,
@@ -574,6 +603,7 @@
 				2AC5A13E275910A70007E573 /* HeadsOrTailsViewController.xib in Resources */,
 				2A579439275A549700A9E64A /* TableViewCell.xib in Resources */,
 				2AAC63F2275E9D3900F45B9F /* HomeMoviesViewController.xib in Resources */,
+				2ADD76B2276B9128001A7A8B /* ToDoTableViewCell.xib in Resources */,
 				2AEE86CE2754E4DF00665772 /* ServicesViewController.xib in Resources */,
 				2AEE86D42754F6D700665772 /* SharingDataViewController.xib in Resources */,
 				2A579434275A4CE800A9E64A /* TableViewViewController.xib in Resources */,
@@ -587,6 +617,7 @@
 				2AE31089275FD5E9000EB3CD /* PermanenteStorageViewController.xib in Resources */,
 				2A6FDC24274C54A800DE2B43 /* HomeViewController.xib in Resources */,
 				2AEE86BD2754E34E00665772 /* ClientsViewController.xib in Resources */,
+				2ADD76B7276BB3C6001A7A8B /* MapKitViewController.xib in Resources */,
 				2A016BC827621E7000B56110 /* MyNotesViewController.xib in Resources */,
 				2AEE86C62754E4AF00665772 /* ContactsViewController.xib in Resources */,
 				2A57943E275A792500A9E64A /* AlertViewController.xib in Resources */,
@@ -611,9 +642,11 @@
 				2AAC63F6275E9D9C00F45B9F /* MoviesViewModel.swift in Sources */,
 				2AAC63DB275E4A7500F45B9F /* SignModel.swift in Sources */,
 				2AC5A13D275910A70007E573 /* HeadsOrTailsViewController.swift in Sources */,
+				2ADD76B1276B9128001A7A8B /* ToDoTableViewCell.swift in Sources */,
 				2AEE86D32754F6D700665772 /* SharingDataViewController.swift in Sources */,
 				2A579433275A4CE800A9E64A /* TableViewViewController.swift in Sources */,
 				2AAC63D7275E312D00F45B9F /* SignTableViewCell.swift in Sources */,
+				2ADD76B6276BB3C6001A7A8B /* MapKitViewController.swift in Sources */,
 				2A016BCE276241F700B56110 /* ToDoListViewController.swift in Sources */,
 				2AC5A14227594A440007E573 /* ResultHeadsOrTailsViewController.swift in Sources */,
 				2AAC63ED275E937200F45B9F /* MoviesTableViewCell.swift in Sources */,
@@ -627,8 +660,7 @@
 				2AEE86C92754E4C600665772 /* CompanyViewController.swift in Sources */,
 				2AE31088275FD5E9000EB3CD /* PermanenteStorageViewController.swift in Sources */,
 				2AAC63F4275E9D4D00F45B9F /* MoviesModel.swift in Sources */,
-				2A016BD52762422700B56110 /* ToDoViewModel.swift in Sources */,
-				2A016BDA2762C00E00B56110 /* AddToDoViewModel.swift in Sources */,
+				2A016BDA2762C00E00B56110 /* ToDoViewModel.swift in Sources */,
 				2AE31081275FAE70000EB3CD /* DetailsMoviesViewController.swift in Sources */,
 				2AA3FDA72756F95200AE1469 /* Coordinator.swift in Sources */,
 				2AAC63D2275E30CF00F45B9F /* SignViewController.swift in Sources */,

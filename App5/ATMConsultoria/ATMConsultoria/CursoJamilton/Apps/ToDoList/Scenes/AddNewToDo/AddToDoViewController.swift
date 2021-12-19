@@ -9,7 +9,7 @@ import UIKit
 
 class AddToDoViewController: UIViewController {
     // MARK: Properties
-    var viewModel = AddToDoViewModel()
+    var viewModel: ToDoViewModel
     var coordinator: JamiltonCoordinator?
     var getNote: ((String) -> Void)?
     
@@ -17,7 +17,8 @@ class AddToDoViewController: UIViewController {
     @IBOutlet weak var textFieldNewToDo: UITextField!
     
     // MARK: Initialization
-    init() {
+    init(viewModel: ToDoViewModel) {
+        self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -37,11 +38,10 @@ class AddToDoViewController: UIViewController {
     }
     
     // MARK: Methods
-    private func saveNote() -> String {
-        guard let note = textFieldNewToDo.text else { return ""}
+    private func saveNote() {
+        guard let note = textFieldNewToDo.text else { return }
         viewModel.saveNote(note: note)
         self.getNote?(note)
-        return note
     }
     
 }
