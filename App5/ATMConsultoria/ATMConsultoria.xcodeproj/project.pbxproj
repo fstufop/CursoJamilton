@@ -530,6 +530,7 @@
 		2AEE86D52754FD4F00665772 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				72AA8F0F2771207A005DBC25 /* CoreData */,
 				2ADD76B3276BB3AA001A7A8B /* MapKit */,
 				2AE31085275FD567000EB3CD /* PermanentStorage */,
 				2A57943A275A78F200A9E64A /* Alerts */,
@@ -537,6 +538,13 @@
 				2AC5A1392759105E0007E573 /* SharingData */,
 			);
 			path = Feature;
+			sourceTree = "<group>";
+		};
+		72AA8F0F2771207A005DBC25 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

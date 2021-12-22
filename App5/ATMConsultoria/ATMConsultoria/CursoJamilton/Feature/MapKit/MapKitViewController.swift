@@ -43,6 +43,13 @@ class MapKitViewController: UIViewController, MKMapViewDelegate, CLLocationManag
         mapView.addAnnotation(anotation)
     }
     
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        print(locations)
+        guard let userLocation: CLLocation = locations.last else { return }
+        
+
+    }
+    
     private func getUserLocation() {
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
