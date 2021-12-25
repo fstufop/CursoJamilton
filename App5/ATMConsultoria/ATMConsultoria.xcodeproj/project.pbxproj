@@ -66,6 +66,13 @@
 		2AEE86D42754F6D700665772 /* SharingDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AEE86D22754F6D700665772 /* SharingDataViewController.xib */; };
 		2AEE86D82754FDD300665772 /* SharingDataResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE86D62754FDD300665772 /* SharingDataResultsViewController.swift */; };
 		2AEE86D92754FDD300665772 /* SharingDataResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AEE86D72754FDD300665772 /* SharingDataResultsViewController.xib */; };
+		729818FC27734D7500196D93 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 729818FA27734D7500196D93 /* CoreData.xcdatamodeld */; };
+		729819002773573A00196D93 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729818FE2773573A00196D93 /* NotesViewController.swift */; };
+		729819012773573A00196D93 /* NotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 729818FF2773573A00196D93 /* NotesViewController.xib */; };
+		729819042773575500196D93 /* AddNewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729819022773575500196D93 /* AddNewNoteViewController.swift */; };
+		729819052773575500196D93 /* AddNewNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 729819032773575500196D93 /* AddNewNoteViewController.xib */; };
+		729819082773576E00196D93 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729819062773576E00196D93 /* NoteTableViewCell.swift */; };
+		729819092773576E00196D93 /* NoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 729819072773576E00196D93 /* NoteTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +137,13 @@
 		2AEE86D22754F6D700665772 /* SharingDataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SharingDataViewController.xib; sourceTree = "<group>"; };
 		2AEE86D62754FDD300665772 /* SharingDataResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingDataResultsViewController.swift; sourceTree = "<group>"; };
 		2AEE86D72754FDD300665772 /* SharingDataResultsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SharingDataResultsViewController.xib; sourceTree = "<group>"; };
+		729818FB27734D7500196D93 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		729818FE2773573A00196D93 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		729818FF2773573A00196D93 /* NotesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotesViewController.xib; sourceTree = "<group>"; };
+		729819022773575500196D93 /* AddNewNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewNoteViewController.swift; sourceTree = "<group>"; };
+		729819032773575500196D93 /* AddNewNoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewNoteViewController.xib; sourceTree = "<group>"; };
+		729819062773576E00196D93 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		729819072773576E00196D93 /* NoteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +277,7 @@
 				2A6FDC13274C53F100DE2B43 /* Assets.xcassets */,
 				2A6FDC15274C53F100DE2B43 /* LaunchScreen.storyboard */,
 				2A6FDC18274C53F100DE2B43 /* Info.plist */,
+				729818FA27734D7500196D93 /* CoreData.xcdatamodeld */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -337,6 +352,7 @@
 		2AAC63E3275E8FEB00F45B9F /* Apps */ = {
 			isa = PBXGroup;
 			children = (
+				729818FD2773572000196D93 /* Notes */,
 				2A016BCB276241DA00B56110 /* ToDoList */,
 				2A016BC427621E5600B56110 /* MyNotes */,
 				2AAC63E0275E8ABC00F45B9F /* Movies */,
@@ -540,6 +556,27 @@
 			path = Feature;
 			sourceTree = "<group>";
 		};
+		729818FD2773572000196D93 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				7298190A27735F0000196D93 /* Features */,
+				729819062773576E00196D93 /* NoteTableViewCell.swift */,
+				729819072773576E00196D93 /* NoteTableViewCell.xib */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		7298190A27735F0000196D93 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				729818FE2773573A00196D93 /* NotesViewController.swift */,
+				729818FF2773573A00196D93 /* NotesViewController.xib */,
+				729819022773575500196D93 /* AddNewNoteViewController.swift */,
+				729819032773575500196D93 /* AddNewNoteViewController.xib */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
 		72AA8F0F2771207A005DBC25 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
@@ -611,11 +648,13 @@
 				2AC5A13E275910A70007E573 /* HeadsOrTailsViewController.xib in Resources */,
 				2A579439275A549700A9E64A /* TableViewCell.xib in Resources */,
 				2AAC63F2275E9D3900F45B9F /* HomeMoviesViewController.xib in Resources */,
+				729819092773576E00196D93 /* NoteTableViewCell.xib in Resources */,
 				2ADD76B2276B9128001A7A8B /* ToDoTableViewCell.xib in Resources */,
 				2AEE86CE2754E4DF00665772 /* ServicesViewController.xib in Resources */,
 				2AEE86D42754F6D700665772 /* SharingDataViewController.xib in Resources */,
 				2A579434275A4CE800A9E64A /* TableViewViewController.xib in Resources */,
 				2A016BCF276241F700B56110 /* ToDoListViewController.xib in Resources */,
+				729819052773575500196D93 /* AddNewNoteViewController.xib in Resources */,
 				2AE31082275FAE70000EB3CD /* DetailsMoviesViewController.xib in Resources */,
 				2A016BD32762421200B56110 /* AddToDoViewController.xib in Resources */,
 				2AC5A14327594A440007E573 /* ResultHeadsOrTailsViewController.xib in Resources */,
@@ -624,6 +663,7 @@
 				2A6FDC14274C53F100DE2B43 /* Assets.xcassets in Resources */,
 				2AE31089275FD5E9000EB3CD /* PermanenteStorageViewController.xib in Resources */,
 				2A6FDC24274C54A800DE2B43 /* HomeViewController.xib in Resources */,
+				729819012773573A00196D93 /* NotesViewController.xib in Resources */,
 				2AEE86BD2754E34E00665772 /* ClientsViewController.xib in Resources */,
 				2ADD76B7276BB3C6001A7A8B /* MapKitViewController.xib in Resources */,
 				2A016BC827621E7000B56110 /* MyNotesViewController.xib in Resources */,
@@ -640,6 +680,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A579438275A549700A9E64A /* TableViewCell.swift in Sources */,
+				729819082773576E00196D93 /* NoteTableViewCell.swift in Sources */,
 				2AEE86D82754FDD300665772 /* SharingDataResultsViewController.swift in Sources */,
 				2AEE86CD2754E4DF00665772 /* ServicesViewController.swift in Sources */,
 				2AAC63DF275E503B00F45B9F /* SignViewModel.swift in Sources */,
@@ -661,6 +702,7 @@
 				2AEE86C52754E4AF00665772 /* ContactsViewController.swift in Sources */,
 				2A6FDC0B274C53EF00DE2B43 /* AppDelegate.swift in Sources */,
 				2A57943D275A792500A9E64A /* AlertViewController.swift in Sources */,
+				729818FC27734D7500196D93 /* CoreData.xcdatamodeld in Sources */,
 				2AC5A145275951770007E573 /* JamiltonCoordinator.swift in Sources */,
 				2A016BC727621E7000B56110 /* MyNotesViewController.swift in Sources */,
 				2A016BD22762421200B56110 /* AddToDoViewController.swift in Sources */,
@@ -669,7 +711,9 @@
 				2AE31088275FD5E9000EB3CD /* PermanenteStorageViewController.swift in Sources */,
 				2AAC63F4275E9D4D00F45B9F /* MoviesModel.swift in Sources */,
 				2A016BDA2762C00E00B56110 /* ToDoViewModel.swift in Sources */,
+				729819002773573A00196D93 /* NotesViewController.swift in Sources */,
 				2AE31081275FAE70000EB3CD /* DetailsMoviesViewController.swift in Sources */,
+				729819042773575500196D93 /* AddNewNoteViewController.swift in Sources */,
 				2AA3FDA72756F95200AE1469 /* Coordinator.swift in Sources */,
 				2AAC63D2275E30CF00F45B9F /* SignViewController.swift in Sources */,
 			);
@@ -865,6 +909,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		729818FA27734D7500196D93 /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				729818FB27734D7500196D93 /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 729818FB27734D7500196D93 /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2A6FDBFF274C53EF00DE2B43 /* Project object */;
 }

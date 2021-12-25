@@ -45,8 +45,6 @@ class MapKitViewController: UIViewController, MKMapViewDelegate, CLLocationManag
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         print(locations)
-        guard let userLocation: CLLocation = locations.last else { return }
-        
 
     }
     
