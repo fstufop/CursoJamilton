@@ -17,8 +17,8 @@ final class CommonCoordinator: Coordinator {    ///Coordinator conforma com o pr
     }
     
     func start() {  ///Metódo utilizado para dar o start no fluxo de telas
-        let ChallengeCoordinator = ChallengeCoordinator(navigationController) ///Instancia a navigationController presente no Coordinator das demais cenas
-        challengeCoordinator.start() ///Da o start no fluxo do Coordinator filho
+        let jamiltonCoordinator = JamiltonCoordinator(navigationController) ///Instancia a navigationController presente no Coordinator das demais cenas
+        jamiltonCoordinator.start() ///Da o start no fluxo do Coordinator filho
     }
 }
 
